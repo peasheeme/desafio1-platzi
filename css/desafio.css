@@ -6,6 +6,10 @@ body {
 h3 {
 	font-size: 20px;
 }
+a {
+	text-decoration: none;
+	color: gray;
+}
 .contenedor {
  	width: 1000px;
     margin: auto;
@@ -138,6 +142,41 @@ h3 {
   	width:320px;
   	height: 213px; 
   	  }
+  .pie-pagina {
+	display: inline-block;
+  	position: absolute;
+  	display: inline-block;
+	position: absolute;
+	width: 100%;
+    text-align: center;
+    font-size: 18px;  	
+  }
+
+
+  .pie-pagina li, h3 {
+  	display: inline-block;
+  	color: gray;
+
+   }
+  
+  .numero-pagina {
+  	background-color: #c1c1c1;
+  	border: 1px solid #c1c1c1;
+  	padding: 10px 15px 10px 15px;
+  	border-radius: 2px;
+  	margin-left: 10px;
+  }
+  .numero-pagina1 {
+  	padding: 10px 15px 10px 15px;
+  	border-radius: 2px;
+  	margin-left: 10px;
+  }
+
+  .texto-paginacion {
+  	color: gray;
+  }
+
+
   
 
   
