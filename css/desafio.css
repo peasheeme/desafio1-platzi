@@ -1,0 +1,139 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+	background-color: #efefef;
+}
+h3 {
+	font-size: 20px;
+}
+.contenedor {
+ 	width: 1000px;
+    margin: auto;
+    position: relative;
+ 	
+  }
+
+.header  {
+	background-color: #234458;
+	color : white;
+	height: 50px;
+}
+
+.logotipo {
+	margin-left: 30px;
+	display: inline-block;
+}
+
+.menu {
+  	font-size: 14px;
+	display: inline-block;
+	position: absolute;
+  	right: 0;
+  	margin: 0;
+  }
+
+ .menu li{
+ 	display: inline-block;
+ 	padding-left: 20px;
+
+ }
+ .menu ul li:after {
+ 	content: '|';
+ 	margin-left: 25px;
+ 	font-size: 20px;
+  	line-height: 20px;
+    color: white;
+  }
+
+ .menu a {
+ 	color: white;
+ 	text-decoration: none;
+ }
+ 
+ .button {
+ 	background-color: #ff4842;
+ 	color: white;
+ 	border: none;
+ 	text-decoration: none;
+ 	border-radius: 3px;
+ 	padding: 10px;
+ 	font-size: 15px;
+ 	margin: 30px 30px 0 30px;
+ }
+ .buscar {
+ 	display: flex;
+ 	justify-content: flex-end;
+ 	margin: 10px 0 10px 10px;
+ }
+ .buscar input {
+  	padding: 5px;
+  	border-radius: 5px;
+  	font-size: 15px;
+  	display: inline-block;
+  	outline: 0;
+   }
+
+ .searchimage {
+  	display: inline-block;
+  	position: absolute;
+  }
+  .portada {
+  	height: 650px;px;
+  	background-image: url("../images/image10.jpg");
+  	margin-bottom: 20px;
+  }
+	
+  .etiqueta {
+  	background-color: rgba(236, 234, 234, 0.7);
+  	width: 425px;
+  	position: absolute;
+  	bottom: 50px;
+  	margin-left: 30px;
+  	padding: 0 20px 0 20px;
+  	
+  }
+
+  .etiqueta h1, h5{
+  	color: #5f5f5f;
+  }
+  hr {
+  	background-color: gray; 
+  	margin: 15px 0 15px; 0
+  }
+  .publicacion ,h5, img {
+  	display: flex;
+  	align-items: center;
+   } 
+
+  h5.fecha  {
+  margin-left: 145px;
+  } 
+
+  .row {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   
+  }
+  .articulos {
+  	width: 320px;
+  	color: #5f5f5f;
+  }
+  h3.art-titulo {
+	margin: 10px 0 10px 0;
+	width: 200px;
+  }
+
+  .subtitulo{
+  	display: flex;
+  	align-items: center;
+  	justify-content: space-between;
+  	padding-top: 0;
+  }
+  h5.name, h5.date {
+  	margin: 0 0 25px 0 ;
+  	color: gray;
+  }
+  
+
+  
